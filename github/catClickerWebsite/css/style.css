@@ -1,0 +1,73 @@
+body{
+  background-color:#001f3f; 
+  text-align: center;
+  /**1280× 800**/
+}
+.body_const{
+  position: relative;
+  top:100px;
+  display: inline-block;
+  width: 1200px;
+   border-radius: 0px;
+  height: 500px;
+  border: px dotted red;
+}
+.buttons{
+  background-color: #AAAAAA;
+  border: px dotted red;
+  float: left;
+  width: 200px;
+  height: 100%;
+  border-radius: 02px;
+  position: relative;
+}
+#counter{
+  font-size: 12px;
+  margin-top: 20px;
+}
+#placeholder{
+ width: 25px;
+ float: right;
+ margin-right: 30px;
+ height: 25px;
+ margin-top: -25px;
+ display: inline-block;
+ border: px solid white;
+}
+#imgId{
+  width: 100%;
+  cursor: pointer;
+  transition: 1s ease;
+  height: 100%;
+  border: px dotted red;
+  background: url("../images/cat_picture1.jpg");
+  background-size: 100% 100%;
+}
+.pstyle{
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  font-family: Raleway;
+  border: px solid black;
+  vertical-align: middle;
+  margin-top: 20%;
+}
+.img_container{
+  width: 1000px;
+  background-color: blue;
+  position: relative;
+  float: right;
+   border-radius: 5px;
+  top: 00%;
+  height: 100%;
+  background: url(../images/wallpaper.jpg);
+  display: inline-block;
+}
+.buttons{
+
+}
+.buttons p{
+}
