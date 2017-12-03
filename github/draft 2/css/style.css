@@ -1,0 +1,156 @@
+*{
+    font-family: Raleway;
+}
+header{
+    width: 1280px;
+    height: 90px;
+    border: px solid red;
+    margin: auto;
+}
+#logo_container{
+    float: left;
+    width: 300px;
+    border-radius: 2px;
+    height: 100%;
+    background-color: ;
+}
+#nav_buttons{
+    width: 500px;
+    border-radius: 2px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    float: right;
+    background-color: ;
+}
+.nav_buttons_style{
+    margin-left: 30px;
+    font-size: 20px;
+    width: 90px;
+    border: px dotted black;
+    display: inline-block;
+    background-color: ;
+}
+#logoImg{
+     width: 100%;
+    cursor: pointer;
+    transition: 1s ease;
+    height: 100%;
+    border: px dotted red;
+    background: url("../images/logo.png");
+    background-size: 100% 100%;  
+}
+#layer{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    border: px solid blue;
+    margin: auto;
+}
+#imgId{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s ease;
+    height: 100%;
+    border: px dotted red;
+    background-image: url("../images/phone3.jpg");
+    background-size: 100% 100%;  
+}
+.constraint{
+  border: px solid red;
+  top: 40%;
+  vertical-align: middle;
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+.arrows{
+  cursor: pointer;
+}
+#btn1{
+  width:55px;
+  height: 100%;
+  top: 40%;
+  float: right;
+  background-color: gray;
+}
+.btnsnotvisible{
+    display: none;
+}
+.btnvisible{
+    transition: 5s ease;
+    display: block;
+}
+#btn2{
+  width:55px;
+  top: 40%;
+  height: 100%;
+  float: left;
+  background-color: gray;
+}
+#layer2{
+    width: 1280px;
+    height: 380px;
+    position: relative;
+    top: px;
+    margin: auto;
+    background-color: ;
+    border: px solid black;
+}
+.img_layer2{
+    width: 640px;
+    height: 380px;
+    position: relative;
+    top: 00px;
+    float: right;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: 1px solid transparent;
+}
+.img_layer2 h1{
+    width: 300px;
+    border: px solid black;
+    margin: auto;
+    color: #AAAAAA;
+    font-size: 46px;
+    margin-top: 23%;
+
+}
+
+.text_layer2{
+    width: 640px;
+    height: 380px;
+    position: relative;
+    top: 0px;
+    display: block;
+    float: left;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.text_layer2 h1{
+    width: 100%;
+    margin-top:0px;
+    font-family: Raleway;
+    border: 1px solid transparent;
+}
+.text_layer2 p{
+    font-family: Raleway;
+    position: relative;
+    width: 90%;
+    border: 1px solid transparent;
+}
+
+footer{
+    position: relative;
+    width: 1280px;
+    bottom: -50px;
+    height: 40px;
+    border: px solid black;
+    margin: auto;
+    text-align: center;
+}
+footer p{
+    margin: auto;
+    right: 25%;
+}
