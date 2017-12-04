@@ -1,0 +1,94 @@
+body{
+	
+}
+header{
+	width: 670px;
+	border: px solid black;
+	height: 100px;
+	margin: auto;
+}
+#img1{
+	height: 70px;
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	width: 80px;
+	border: px solid black;
+	border-radius: 50%;
+}
+#info{
+	margin-top: 21px;
+	margin-right: px;
+}
+#info{
+	width: 580px;
+	height: 100%;
+	border: px solid orange;
+	float: right;
+	top: -20px;
+	display: inline-block;
+}
+.style_info{
+	font-family: Raleway;
+	font-size: 21px;
+	color: black;
+	font-weight: 500;
+}
+#style_info_small{
+	font-size: 20px;
+}
+#layer{
+	width: 670px;
+	border-top: 1px solid #b2b2b2;
+	border-bottom: 1px solid #b2b2b2;
+	height: 130px;
+	margin: auto;
+	background-color: #f6f6f6;
+}
+#text_layer{
+	width: 630px;
+	height: 100px;
+	margin: auto;
+	margin-top: 18px;
+	border: px solid black;
+	background-color: ;
+}
+#text_layer2{
+	width: 630px;
+	height: 100px;
+	margin: auto;
+	margin-top: 18px;
+	border: px solid black;
+	background-color: ;
+}
+#layer2{
+	width: 670px;
+	height: 345px;
+	margin: auto;
+	background: url("../img/mobilewebdev.jpg");
+	background-size: 100% 100%;
+	background-color: ;
+}
+#text_container p{
+	display: inline-block;
+	margin: auto;
+	font-size: 16px;
+}
+#text_container{
+	width: 90%;
+	position: relative;
+	top: 20%;
+	margin: auto;
+	height: 70%;
+	background-color: transparent;
+	border: px solid red;
+}
+footer{
+	width: 670px;
+	height: 20px;
+	border-top: 1px solid #b2b2b2;
+	border: px solid black;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+}
