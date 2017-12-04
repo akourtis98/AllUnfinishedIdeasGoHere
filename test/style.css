@@ -1,0 +1,84 @@
+body{
+	background-color: white;
+	text-align: center;
+}
+h1{
+	font-family: Raleway;
+	letter-spacing: 1px;
+	margin-top: 10%;
+	font-size: 22px;
+	color: black;
+}
+div{
+	width: 100%;
+	margin-top: -5px;
+	height: 1px;
+	border-top: px solid black;
+	vertical-align: top;
+	box-shadow: 0 -1px 1px -1px black;
+}
+#wrapper{
+	width: 1024px;
+	height: 350px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	overflow-y: hidden;
+	border: px dotted white;
+	margin: auto;
+		margin-top: 20px;
+}
+#container{
+	width: 1300px;
+	height: 350px;
+
+}
+.itemstyle{
+	border: px solid red;
+	cursor: pointer;
+	width: 200px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	transition: 0.5s ease;
+	margin-left: 50px;
+}
+.chnagesize{
+	border: px solid red;
+	cursor: pointer;
+	width: 260px;
+	height: 105%;
+	display: inline-block;
+	float: left;
+	transition: 0.5s ease;
+	margin-left: 25px;
+}
+#item1{
+	background-image: url("images/img1.jpg");
+	background-size: 100% 100%;
+
+}
+#item2{
+	background-image: url("images/img2.jpg");
+	background-size: 100% 100%;
+}
+#item3{
+	background-image: url("images/img3.jpg");
+	background-size: 100% 100%;
+}
+#item4{
+	background-image: url("images/img4.jpg");
+	background-size: 100% 100%;
+}
+#item5{
+	background-image: url("images/img5.jpg");
+	background-size: 100% 100%;
+}
+footer{
+	width: 1024px;
+	height: 20px;
+	border-top: 1px solid #b2b2b2;
+	border: px solid black;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+}
