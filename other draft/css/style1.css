@@ -1,0 +1,147 @@
+header{
+	position: fixed;
+	height: 65px;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+	background-color: #323232;
+}
+.header_constraint{
+	border: 2px solid transparent;
+	width: 1280px;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+}
+.headings{
+	float: right;
+	display: inline-block;
+	color: #b2b2b2;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+	border: px dotted red;
+	transition: 0.3s ease;
+}
+.headings:hover{
+	color: white;
+}
+
+.layer{
+	width: 1280px;
+	height: 380px;
+	display: block;
+	margin: 0 auto;
+	background-color: #d3d3d3;
+	border: 1px solid #d3d3d3;
+}
+.title_layer{
+	border: px solid black;
+	position: relative;
+	font-family: Raleway;
+	top:25%;
+	margin-left: 25px;
+}
+.text_layer{
+	border: px solid black;
+	position: relative;
+	font-family: Raleway;
+	height: 15%;
+	margin-top: 0.5%;
+	width: 70%;
+	top:25%;
+	margin-left: 25px;
+}
+.bluebutton_layer{
+	width: 200px;
+	margin-top: 0.5%;
+	background-color: rgb(0,116,217);
+	height: 45px;
+	top:25%;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	margin-left: 25px;
+	position: relative;
+	transition: 0.3s ease;
+	border-radius: 5px;
+}
+.bluebutton_layer:hover{
+		background-color: rgb(0,96,200);
+}
+.bluebutton_layer p{
+	padding-top: 13.5px;
+	font-size: 15px;
+	font-family: Raleway;
+	opacity: 1;
+}
+.layer2_constraint{
+	width: 1280px;
+	height: 390px;
+	position: relative;
+	top: 35px;
+	margin: auto;
+	background-color: ;
+	z-index: 10;
+	border: 1px solid transparent;
+}
+.img_layer2{
+	width: 640px;
+	height: 380px;
+	position: relative;
+	top: 00px;
+	float: right;
+	text-align: center;
+	background-color: #d3d3d3;
+	border: 1px solid transparent;
+}
+.img_layer2 h1{
+	width: 300px;
+	border: px solid black;
+	margin: auto;
+	color: #AAAAAA;
+	font-size: 46px;
+	margin-top: 23%;
+
+}
+
+.text_layer2{
+	width: 640px;
+	height: 380px;
+	position: relative;
+	top: -380px;
+	display: block;
+	float: left;
+	background-color: white;
+	border: 1px solid transparent;
+}
+
+.text_layer2 h1{
+	width: 100%;
+	margin-top:0px;
+	font-family: Raleway;
+	border: 1px solid transparent;
+}
+.text_layer2 p{
+	font-family: Raleway;
+	position: relative;
+	width: 90%;
+	border: 1px solid transparent;
+}
+  footer{
+  	display: inline-block;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    border: px solid blue;
+    width: 100%;
+}
+footer p{
+	margin: auto;
+	display: inline-block;
+}
+body{
+	border: 1px solid transparent;
+}
