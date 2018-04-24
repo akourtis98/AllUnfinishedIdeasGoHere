@@ -1,2 +1,1 @@
-# AllUnfinishedIdeasGoHere
-You can find a lot of incomplete work here. All of it was done primarily for practice purposes...
+You can find a lot of css drafts here. All of it was done primarily for practice purposes.
